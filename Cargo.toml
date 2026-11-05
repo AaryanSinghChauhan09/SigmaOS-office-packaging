@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_office_packaging"
+version = "0.1.0"
+edition = "2021"
+description = "SigmaOS office upstream package manifests, signatures, update metadata, and license tracking"
+
+[lib]
+name = "sigmaos_office_packaging"
+path = "src/lib.rs"

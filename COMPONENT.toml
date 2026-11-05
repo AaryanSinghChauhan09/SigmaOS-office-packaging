@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-office-packaging"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "SigmaOS office upstream package manifests, signatures, update metadata, and license tracking"
+upstream = []
+
+[contract]
+provides = ["office-package-manifests", "signatures"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"
