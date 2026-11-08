@@ -2,7 +2,8 @@
 name = "sigmaos_office_packaging"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS office upstream package manifests, signatures, update metadata, and license tracking"
+license = "MIT"
+description = "SigmaOS office-packaging component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_office_packaging"
